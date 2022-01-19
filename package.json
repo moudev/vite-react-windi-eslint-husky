@@ -7,9 +7,11 @@
     "preview": "vite preview",
     "lint:fix": "eslint ./src --ext .jsx,.js --fix --ignore-path ./.gitignore",
     "lint:format": "prettier --write \"./**/*.{js,jsx,css,md,json}\" ",
-    "lint": "yarn lint:format && yarn lint:fix "
+    "lint": "yarn lint:format && yarn lint:fix ",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "husky": "^7.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
