@@ -32,6 +32,10 @@ yarn install
 ### Config Git hooks (required)
 
 ```bash
+git init
+```
+
+```bash
 yarn prepare
 ```
 
