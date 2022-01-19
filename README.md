@@ -2,6 +2,7 @@
 
 - Vite
 - React.js
+- WindiCSS
 - ESLint
 - Prettier
 - Husky

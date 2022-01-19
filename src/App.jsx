@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo mb-4" alt="logo" />
         <p className="mb-16">
-          Vite + React.js + ESLint + Prettier + Husky + Lint-staged
+          Vite + React.js + WindiCSS + ESLint + Prettier + Husky + Lint-staged
         </p>
         <p className="mb-4">
           <button
