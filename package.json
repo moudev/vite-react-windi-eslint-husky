@@ -6,7 +6,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint:fix": "eslint ./src --ext .jsx,.js --fix --ignore-path ./.gitignore",
-    "lint:format": "prettier --write \"./**/*.{js,jsx,css,md,json}\" "
+    "lint:format": "prettier --write \"./**/*.{js,jsx,css,md,json}\" ",
+    "lint": "yarn lint:format && yarn lint:fix "
   },
   "dependencies": {
     "react": "^17.0.2",
