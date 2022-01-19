@@ -27,7 +27,9 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "lint-staged": "^12.2.0",
     "prettier": "^2.5.1",
-    "vite": "^2.7.2"
+    "vite": "^2.7.2",
+    "vite-plugin-windicss": "^1.6.3",
+    "windicss": "^3.4.3"
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
