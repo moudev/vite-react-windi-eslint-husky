@@ -8,18 +8,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
+        <img src={logo} className="App-logo mb-4" alt="logo" />
+        <p className="mb-16">
+          Vite + React.js + ESLint + Prettier + Husky + Lint-staged
+        </p>
+        <p className="mb-4">
           <button
             type="button"
             onClick={() => setCount((prevCount) => prevCount + 1)}
+            className="border border-white border-2 rounded-lg px-4 py-1 mb-16 bg-[#646CFF]"
           >
             count is: {count}
           </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
         </p>
         <p>
           <a
